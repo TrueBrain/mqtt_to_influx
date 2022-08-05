@@ -69,4 +69,4 @@ def main(influxdb_url, influxdb_token, influxdb_org, influxdb_bucket, files):
 
 
 if __name__ == "__main__":
-    main(auto_envvar_prefix="HOMIJ_MITM")
+    main(auto_envvar_prefix="MQTT_TO_INFLUX")
