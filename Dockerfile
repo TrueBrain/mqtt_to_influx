@@ -1,5 +1,13 @@
 FROM python:3.8-slim
 
+LABEL maintainer="TrueBrain <github@truebrain.nl>"
+LABEL org.opencontainers.image.authors="TrueBrain <github@truebrain.nl>"
+LABEL org.opencontainers.image.url="https://github.com/TrueBrain/mqtt_to_influx"
+LABEL org.opencontainers.image.source="https://github.com/TrueBrain/mqtt_to_influx"
+LABEL org.opencontainers.image.licenses="MIT"
+LABEL org.opencontainers.image.title="MQTT to InfluxDB2 bridge"
+LABEL org.opencontainers.image.description="Sometimes you just want to bridge MQTT to InfluxDB2"
+
 WORKDIR /code
 
 COPY requirements.txt /code/
